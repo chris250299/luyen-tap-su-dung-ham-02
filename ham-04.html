@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bài 04</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+<script>
+    var a = prompt("Nhập một kí tự");
+    var isInt = false;
+    function check(x) {
+        if (x == parseInt(x)){
+            alert(x + " là kí tự số");
+            isInt = true;
+        }
+         if(!isInt){
+             alert(x + " không phải là kí tự số");
+        }
+    }
+    check(a);
+</script>
+</body>
+</html>
