@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bài 09</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+<script>
+    var arr = ["h", "e", "l", "l", "o"];
+    var a = prompt("Nhập vào một kí tự");
+
+    function check(x) {
+        var dem = 0;
+        for (var i = 0; i < x.length; i++) {
+            if (a === x[i]) {
+                dem++;
+
+            }
+        } return dem;
+    }
+var result = check(arr);
+    if (result !== 0) {
+        alert("Kí tự " + a + " xuất hiện " + result + " lần");
+
+    }else alert("-1");
+
+</script>
+</body>
+</html>
